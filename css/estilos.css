@@ -1,0 +1,107 @@
+
+#contenedor{
+    text-align: center;
+}
+
+
+#turnoJugador{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 80px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    width: 180px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+
+#turnoJugador p{
+    text-align: left;
+    color: white; 
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.rojo{
+    background-color: red;
+    width: 10px;
+    height: 20px;
+    transition: all .2s;
+}
+
+.amarillo{
+    background-color: rgb(255, 251, 0);
+    width: 10px;
+    height: 20px;
+    transition: all .2s;
+}
+
+
+.turnoAmarillo{
+    background-color: rgb(255, 251, 0);
+    width: 150px;
+    height: 20px;
+    transition: all .2s;
+}
+
+.turnoRojo{
+    background-color: red;
+    width: 150px;
+    height: 20px;
+    transition: all .2s;
+}
+
+.tablero{
+    margin: 0px auto;
+    margin-top: 50px;
+    width: 500px;
+    height: 400px;
+    background-color:cornflowerblue;
+    padding: 4px;
+}
+
+.celda{
+    margin: 0px auto;
+    margin: 4px 4px 2px 2px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.jugador1{
+    background-color: red;
+}
+
+.jugador2{
+    background-color: rgb(255, 251, 0);
+}
+
+
+.reset{
+    border-radius: 30px;
+    border: 2px solid cornflowerblue;
+    background-color: white; 
+    color: black; 
+    font-weight: bold;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 16px 32px;
+    margin: 0px auto;
+    margin-top: 40px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.reset1:hover {
+    background-color: cornflowerblue;
+    color: white;
+}
